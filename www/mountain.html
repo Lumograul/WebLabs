@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Горный туризм</title>
+    <link href="../css/all.css" rel="stylesheet">
+    <link href="../css/header.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/aside.css" rel="stylesheet">
+    <link href="../css/table.css" rel="stylesheet">
+    <script src="../js/page-load.js"></script>
+</head>
+<body onload="page_load_time()">
+    <header>
+        <div class="main-page">
+            <h1>Главная страница</h1>
+        </div>
+        <form>
+            <label>
+                <input class="searchbar" type="search" placeholder="Поиск">
+            </label>
+        </form>
+        <hr>
+    </header>
+    <aside>
+        <nav>
+            <div class="info">
+                <div class="title">
+                    <h3>Меню</h3>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="index.html" target = "_self">Главная</a></li>
+                    <li><a href="water.html" target = "_self">Водный туризм</a></li>
+                    <li class="current"><a href="mountain.html" target = "_self">Горный туризм</a></li>
+                    <li><a href="walk.html" target = "_self">Пеший туризм</a></li>
+                </ul>
+                <ul class="menu-list"> <i>В разработке:
+                    <li>Лыжный туризм</li>
+                    <li>Спелео туризм</li>
+                    <li>Туризм на средствах передвижения</li>
+                    <li>Парусный туризм</li>
+                    <li>Комбинированный туризм</li>
+                    <li>Северная ходьба</li> </i>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+
+    <main>
+        <div class="info">
+            <table>
+                <tr>
+                    <th>N п/п</th>
+                    <th>Название нарушения</th>
+                    <th>Штраф, баллы</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Потеря страховки (судейской или командной) при прохождении дистанции</td>
+                    <td>Снятие с этапа</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Прекращение страховки (самостраховки)</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Неправильная страховка (самостраховка)</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Срыв участника с повисанием на судейской страховке</td>
+                    <td>10 (Снятие с этапа - после трех предупреждений)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Использование судейской страховки как точки опоры для передвижения</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Выход за ограничение</td>
+                    <td>Снятие с этапа</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Использование опоры за ограничением</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Пропуск пункта промежуточной страховки</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Не выбит командный крюк (пункт промежуточной страховки)</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Неправильное выполнение элемента технического приема</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Потеря контрольного груза</td>
+                    <td>Снятие с этапа</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Потеря основной веревки</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Потеря прочего снаряжения</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="row">
+            <div class="footer-col">
+                <h4>Контакты:</h4>
+                <div class="social-links">
+                    <a href="#">ТГ<i class="fab fa-facebook-f"></i></a>
+                    <a href="#">ВК<i class="fab fa-twitter"></i></a>
+                    <a href="#">Тел<i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <div id="load_time"></div>
+            </div>
+
+            <!--            <div class="footer-col">-->
+            <!--                <h4>Отзывы:</h4>-->
+            <!--                <a href="feedback.html" target="_self">Оставить отзыв</a>-->
+            <!--            </div>-->
+        </div>
+    </footer>
+</body>
+</html>

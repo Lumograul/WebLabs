@@ -1,0 +1,54 @@
+main {
+    /*background-color: #E7DCE8;*/
+    color: #652766;
+    margin-left: 220px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+/*Выравнивание заголовков*/
+.title{
+    text-align: center;
+}
+
+.section-2 {
+    display: inline-block;
+}
+
+/*Стили для текста*/
+.info {
+    font-family: Cambria, serif;
+    display: inline;
+    font-size: larger;
+    line-height: 20px;
+}
+.word-definition {
+    text-decoration: underline;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+/*//////////////////////////////////*/
+
+/*Стиль картинок*/
+.picture {
+    display: flex;
+    box-shadow: 0 0 10px;
+    margin: auto;
+    width: 600px;
+}
+.img-gallery {
+    display: flex;
+}
+
+.list{
+    padding: 20px;
+    list-style: revert;
+}
+
+/*Для маленького экрана*/
+@media (max-width: 680px)
+{
+    .picture {
+        display: none;
+    }
+}

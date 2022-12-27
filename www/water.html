@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="спортивный туризм, туризм, описание спорта, мои планы">
+    <meta name="description" content="я задолбався">
+    <title>Водный туризм</title>
+    <!--    <link href="../css/outline-prototype-label.css" rel="stylesheet">-->
+    <!--    <link href="../css/outline-prototype-safe.css" rel="stylesheet">-->
+    <link href="../css/all.css" rel="stylesheet">
+    <link href="../css/header.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/aside.css" rel="stylesheet">
+    <link href="../css/gallery.css" rel="stylesheet">
+    <script src="../js/page-load.js"></script>
+    <script defer src="../js/gallery.js"></script>
+</head>
+<body onload="page_load_time()">
+    <header>
+        <div class="main-page">
+            <h1>Главная страница</h1>
+        </div>
+        <form>
+            <label>
+                <input class="searchbar" type="search" placeholder="Поиск">
+            </label>
+        </form>
+        <hr>
+    </header>
+    <aside>
+        <nav>
+            <div class="info">
+                <div class="title">
+                    <h3>Меню</h3>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="index.html" target = "_self">Главная</a></li>
+                    <li class="current"><a href="water.html" target = "_self">Водный туризм</a></li>
+                    <li><a href="mountain.html" target = "_self">Горный туризм</a></li>
+                    <li><a href="walk.html" target = "_self">Пеший туризм</a></li>
+                </ul>
+                <ul class="menu-list"> <i>В разработке:
+                    <li>Лыжный туризм</li>
+                    <li>Спелео туризм</li>
+                    <li>Туризм на средствах передвижения</li>
+                    <li>Парусный туризм</li>
+                    <li>Комбинированный туризм</li>
+                    <li>Северная ходьба</li> </i>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+    <main>
+        <h1>Gallery</h1>
+
+        <div class="main_gallery"></div>
+
+        <div class="preloader">
+            <img class="gif" src="../img/cat.gif" alt="Загрузочный котик"/>
+        </div>
+
+        <button class="more">Хочу больше!</button>
+
+        <p class="error">Что-то пошло не так</p>
+    </main>
+    <footer>
+        <hr>
+        <div class="row">
+            <div class="footer-col">
+                <h4>Контакты:</h4>
+                <div class="social-links">
+                    <a href="#">ТГ<i class="fab fa-facebook-f"></i></a>
+                    <a href="#">ВК<i class="fab fa-twitter"></i></a>
+                    <a href="#">Тел<i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <div id="load_time"></div>
+            </div>
+
+            <!--            <div class="footer-col">-->
+            <!--                <h4>Отзывы:</h4>-->
+            <!--                <a href="feedback.html" target="_self">Оставить отзыв</a>-->
+            <!--            </div>-->
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+table{
+    margin-bottom: 20px;
+    margin-top: 80px;
+    max-width: 90%;
+    margin-left: 20px;
+    width: 100%;
+    /*border: solid thin #652766;*/
+    border-spacing: 0;
+}
+
+th { /*главная строка*/
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid thin #652766;
+    background-color: #ECC3D6;
+}
+
+td{
+    border: solid thin #652766;
+}
+td:first-child { /*главный столбец*/
+    text-align: center;
+    font-weight: bold;
+}
+td:last-child {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #FEEBF4;
+}
+tr:nth-child(even) {
+    background-color: #FFDDED;
+}
